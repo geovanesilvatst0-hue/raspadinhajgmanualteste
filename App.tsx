@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { createClient } from '@supabase/supabase-js';
-import ScratchCard, { ScratchCardRef } from './components/ScratchCard';
-import AdminPanel from './components/AdminPanel';
+import ScratchCard, { ScratchCardRef } from './ScratchCard';
+import AdminPanel from './AdminPanel';
 import { Prize, Winner, StoreConfig, AppView } from './types';
 import { INITIAL_PRIZES, INITIAL_CONFIG } from './constants';
 import { generatePrizeMessage } from './services/geminiService';
